@@ -31,6 +31,9 @@ body {
     border-radius: 5px;
     font-size: 14px;
 }
+.btn:hover {
+    opacity: .5;
+}
 
 .orange-btn {
     color: white;
@@ -97,8 +100,24 @@ body {
 
 
 .jumbotron {
+    position: relative;
     height: 650px;
     background-color: #fff2ee;
+    background-image: url('../img/jumbotron.png');
+    background-position: right top;
+    background-size: contain;
+    background-repeat: no-repeat ;
+}
+
+#jumb-bar {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #afebe4;
+    border-top: 3px solid #32495b;
+    border-bottom: 3px solid #32495b;
+
 }
 
 
