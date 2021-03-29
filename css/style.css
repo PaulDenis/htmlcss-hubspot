@@ -7,6 +7,12 @@
     color: #32495b;
 }
 
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 body {
     font-family: 'Nunito Sans', sans-serif; 
 }
@@ -57,6 +63,10 @@ h2 {
     font-size: 14px;
 }
 
+.check {
+    color: #fe775a;
+}
+
 /* header */
 
 .fixed-bar {
@@ -103,7 +113,6 @@ h2 {
 
 .inline-menu > li {
     display: inline-block;
-    word-spacing: 10px;
     margin: 0 10px;
 }
 
@@ -112,7 +121,15 @@ h2 {
     font-weight: 600;
 }
 
+.nav a {
+    word-spacing: 10px;
+}
+
 .inline-menu > a:first-child {
+    margin-left: 0;
+}
+
+.inline-menu > li:first-child {
     margin-left: 0;
 }
 
@@ -157,7 +174,7 @@ h1 {
 /* main */
 
 .bg-grey {
-    height: 1000px;
+    /* height: 1000px; */
     background-color: #f4f9fd;
 }
 
@@ -174,6 +191,51 @@ h1 {
 #cube {
     margin-top: 75px;
     height: 160px;
+}
+
+.white-bg {
+    background-color: white;
+    box-shadow: 0 0 10px lightgray;
+    border-radius: 10px;
+}
+
+#book {
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+.w-30 {
+    width: calc(30% - 100px);
+    height: 250px;
+    margin-top: 60px;
+    margin-left: 100px;
+}
+
+.w-70 {
+    margin-top: 60px;
+    width: 70%;
+}
+
+.CRM  h3 {
+    font-size: 24px;
+    margin-bottom: 25px;
+} 
+
+.CRM  p {
+    margin-bottom: 15px;
+}
+
+.CRM  h3:last-of-type {
+    display: inline-block;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.inline-hr {
+    display: inline-block;
+    width: 60%;
+    margin-left: 50px;
+    margin-bottom: 5px;
 }
 
 #gradient {
