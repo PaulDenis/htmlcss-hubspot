@@ -43,8 +43,9 @@ h2 {
     font-size: 14px;
 }
 .btn:hover {
-    opacity: .5;
+    background-color: rgba(254, 119, 90, .2);
 }
+
 
 .orange-btn {
     color: white;
@@ -57,9 +58,12 @@ h2 {
     font-size: 12px;
 }
 
-.text {
+.high-margin {
     margin: 40px 0;
     line-height: 1.7;
+}
+
+.text {
     font-size: 14px;
 }
 
@@ -67,6 +71,12 @@ h2 {
     color: #fe775a;
 }
 
+.check-list {
+    list-style: none;
+}
+.check-list i {
+    margin-right: 10px;
+}
 /* header */
 
 .fixed-bar {
@@ -174,7 +184,6 @@ h1 {
 /* main */
 
 .bg-grey {
-    /* height: 1000px; */
     background-color: #f4f9fd;
 }
 
@@ -216,7 +225,7 @@ h1 {
     width: 70%;
 }
 
-.CRM  h3 {
+h3 {
     font-size: 24px;
     margin-bottom: 25px;
 } 
@@ -225,9 +234,10 @@ h1 {
     margin-bottom: 15px;
 }
 
-.CRM  h3:last-of-type {
+h4{
     display: inline-block;
     font-size: 16px;
+    margin-bottom: 25px;
     text-transform: uppercase;
 }
 
@@ -237,6 +247,48 @@ h1 {
     margin-left: 50px;
     margin-bottom: 5px;
 }
+
+.col-3 {
+    width: calc( 33.3% - 33px);
+    height: 600px;
+    margin: 50px 50px 50px 0;
+    /* margin-right: 50px; */
+}
+
+.service-hub {
+    margin-right: 0px;
+}
+
+.up {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    height: 55%;
+
+}
+.up img {
+    height: 95px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.separator {
+    margin: 30px 30px;
+}
+
+.down {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    height: 45%;
+}
+
+.down ul {
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+
 
 #gradient {
     height: 600px;
