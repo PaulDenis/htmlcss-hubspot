@@ -291,9 +291,62 @@ h4{
 
 
 #gradient {
-    height: 600px;
+    text-align: center;
+    /* height: 600px; */
     background-image: linear-gradient(to right,#00a8b9, #00bca5);
 }
+
+.white-text{
+    color: white;
+}
+
+#learn  h2 {
+    padding-top: 50px;
+}
+
+#learn p {
+    margin: 20px 0;
+    line-height: 1.8;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table {
+    padding-bottom: 100px;
+}
+
+table  .text {
+    font-size: 10px;
+}
+
+table img {
+    height: 30px;
+}
+table h2 {
+    font-weight: 800;
+}
+
+#row-1 th{
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+#row-1 th:last-child {
+    border-right: none;
+}
+
+#row-2 th:not(:last-child) {
+    border-right: 1px solid white;
+}
+
+th {
+    width: 20%;
+    height: 150px;
+}
+
 
 #catcher {
     height: 600px;
