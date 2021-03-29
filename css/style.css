@@ -11,7 +11,6 @@ body {
     font-family: 'Nunito Sans', sans-serif; 
 }
 
-
 .container {
     width: 70%;
     margin: 0 auto;
@@ -22,6 +21,11 @@ body {
 }
 .float-right {
     float:right;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 700;
 }
 
 .btn {
@@ -47,7 +51,11 @@ body {
     font-size: 12px;
 }
 
-
+.text {
+    margin: 40px 0;
+    line-height: 1.7;
+    font-size: 14px;
+}
 
 /* header */
 
@@ -104,6 +112,9 @@ body {
     font-weight: 600;
 }
 
+.inline-menu > a:first-child {
+    margin-left: 0;
+}
 
 .jumbotron {
     position: relative;
@@ -137,13 +148,9 @@ h1 {
     line-height: 1;
 }
 
-#jumb-text p {
-    margin: 40px 0;
-    line-height: 1.7;
-    font-size: 14px;
-}
 #jumb-text p:last-child {
     font-size: 12px;
+    margin-top: 40px;
 }
 
 
@@ -152,6 +159,21 @@ h1 {
 .bg-grey {
     height: 1000px;
     background-color: #f4f9fd;
+}
+
+#power-cube {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+#power-cube p {
+    margin-top: 20px;
+}
+
+#cube {
+    margin-top: 75px;
+    height: 160px;
 }
 
 #gradient {
