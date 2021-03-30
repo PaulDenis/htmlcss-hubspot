@@ -17,6 +17,10 @@ body {
     font-family: 'Nunito Sans', sans-serif; 
 }
 
+.text-white {
+    color:white;
+}
+
 .container {
     width: 70%;
     margin: 0 auto;
@@ -35,6 +39,7 @@ h2 {
 }
 
 .btn {
+    background-color: white;
     text-decoration: none;
     color: #fe775a;
     border: 2px solid #fe775a;
@@ -417,6 +422,61 @@ h4{
 /* footer */
 
 footer {
-    height: 500px;
     background-color: #32495b;
+}
+
+footer ul {
+    list-style: none;
+}
+
+.lenguages {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.list-title {
+    font-weight: 800;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer li {
+    margin: 10px 0;
+}
+
+footer * {
+    color: white;
+}
+
+.col-4 {
+    width: calc( 25% - 10px);
+    /* height: 500px; */
+    margin: 0 5px;
+}
+
+.footer-btn {
+    color: #32495b;
+    border: #32495b;
+}
+
+#free-tools {
+    margin-bottom: 30px;
+}
+
+#icon-list {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.copyright {
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.copyright a:first-child {
+    margin-right: 15px;
 }
