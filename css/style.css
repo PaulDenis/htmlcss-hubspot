@@ -52,6 +52,9 @@ h2 {
     background-color: #fe775a;
     border: 2px solid #fe775a;
 }
+.orange-btn:hover {
+    background-color: rgba(254, 119, 90, .5)
+}
 
 .large-btn {
     padding: 16px 34px;
@@ -77,6 +80,45 @@ h2 {
 .check-list i {
     margin-right: 10px;
 }
+
+.w-30 {
+    width: calc(30% - 100px);
+    margin-top: 60px;
+    margin-left: 100px;
+}
+
+.w-70 {
+    margin-top: 60px;
+    width: 70%;
+}
+
+.w-60 {
+    width: calc(60% - 1px);
+    margin-top: 60px;
+}
+
+.w-40 {
+    width: calc( 40% - 1px);
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.inline-menu {
+    list-style: none;
+}
+
+.inline-menu > li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.small-text {
+    font-size: 12px;
+    margin-top: 40px;
+}
+
 /* header */
 
 .fixed-bar {
@@ -115,15 +157,6 @@ h2 {
     padding-top: 100px;
     height: 150px;
     background-color: white;
-}
-
-.inline-menu {
-    list-style: none;
-}
-
-.inline-menu > li {
-    display: inline-block;
-    margin: 0 10px;
 }
 
 .inline-menu a {
@@ -175,10 +208,6 @@ h1 {
     line-height: 1;
 }
 
-#jumb-text p:last-child {
-    font-size: 12px;
-    margin-top: 40px;
-}
 
 
 /* main */
@@ -213,17 +242,6 @@ h1 {
     margin-bottom: 30px;
 }
 
-.w-30 {
-    width: calc(30% - 100px);
-    height: 250px;
-    margin-top: 60px;
-    margin-left: 100px;
-}
-
-.w-70 {
-    margin-top: 60px;
-    width: 70%;
-}
 
 h3 {
     font-size: 24px;
@@ -309,48 +327,90 @@ h4{
     line-height: 1.8;
 }
 
-table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
 .table {
+    width: 100%;
     padding-bottom: 100px;
+    padding-top: 50px;
 }
 
-table  .text {
+.table  .text {
     font-size: 10px;
 }
 
-table img {
+.table img {
     height: 30px;
 }
-table h2 {
+
+.table h2 {
     font-weight: 800;
 }
 
-#row-1 th{
+.row-1  div{
+    height: 150px;
+    width: 25%;
     border-right: 1px solid white;
     border-bottom: 1px solid white;
+    padding-top: 20px;
 }
 
-#row-1 th:last-child {
+.row-1 div:last-child {
     border-right: none;
 }
 
-#row-2 th:not(:last-child) {
+.row-2 div {
+    height: 150px;
+    width: 25%;
     border-right: 1px solid white;
+    padding-top: 20px;
 }
 
-th {
-    width: 20%;
-    height: 150px;
+
+.row-2 div:last-child {
+    border-right: none;
 }
+
 
 
 #catcher {
-    height: 600px;
+    /* height: 600px; */
+    width: 100%;
     background-color: #ffffff;
+}
+
+.clients {
+    margin-bottom: 65px;
+}
+
+.clients h2 {
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.clients .w-30 {
+    margin-left: 50px;
+}
+
+
+.clients img {
+    width: 20%;
+    line-height: 100px;
+    vertical-align: middle;
+    margin: 10px
+}
+
+
+#grow  img {
+    width: 70%;
+}
+
+#grow h2 {
+    font-weight: 800;
+    letter-spacing: -1px;
+}
+
+#grow p {
+    margin: 50px 0;
 }
 
 
